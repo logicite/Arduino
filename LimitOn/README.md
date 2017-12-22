@@ -1,3 +1,3 @@
 # LimitOn
 
-Some kind of timer tailored to specific needs
+Some kind of timer, tailored to specific needs

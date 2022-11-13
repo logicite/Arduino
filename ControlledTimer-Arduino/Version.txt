@@ -1,0 +1,12 @@
+ChauffeMe V015
+- suppression du watchdog pour défaut de connexion ethernet (dysfonctionnement de la carte réseau arduino)
+
+
+ChauffeMe V014
+- si le dernier message à plus de 3 MN, alors ré-initialiser la liaison ethernet (Ethernet.begin)
+
+
+ChauffeMe V013
+- si Arduino reçoit un message par Broker > la fonction callback est activée > elle date la dernière connexion avec le broker
+- pour forcer l'appel à la fonction callback > publier toutes les minutes une demande d'info 'I' > la fonction callback réagit à cette demande par le broker
+
